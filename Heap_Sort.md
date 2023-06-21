@@ -1,16 +1,16 @@
-# ** Heap Sort **
-
+# Heap Sort 
+>
 Heap sort é um algoritmo de ordenação baseado em comparação que utiliza uma estrutura de dados chamada heap (ou árvore binária de heap). A ideia por trás do heap sort é transformar a lista de elementos a serem ordenados em uma heap, em que o maior (ou menor, dependendo da ordem desejada) elemento está sempre na raiz da árvore. Em seguida, o algoritmo extrai esse elemento e o coloca na posição correta na lista ordenada. Esse processo é repetido até que todos os elementos estejam na lista ordenada.
 >
 O heap sort pode ser dividido em duas fases principais: construção da heap e extração dos elementos.
 >
-## ** 1. Construção da heap: **
+## 1. Construção da heap: 
    - A partir da lista de elementos, constrói-se uma heap usando a estrutura de árvore binária de heap.
    - Começa-se do último nó não folha até a raiz da árvore.
    - Para cada nó, verifica-se se ele obedece à propriedade de heap, ou seja, se ele é maior (ou menor) que seus filhos. Caso contrário, é realizada uma troca para manter a propriedade de heap.
    - Após a construção da heap, o maior (ou menor) elemento estará na raiz da árvore.
 >
-## ** 2. Extração dos elementos: **
+## 2. Extração dos elementos: 
    - O maior (ou menor) elemento é extraído da raiz da heap e colocado na posição correta na lista ordenada.
    - Em seguida, a propriedade de heap é restaurada para que o próximo maior (ou menor) elemento esteja na raiz.
    - O processo é repetido até que todos os elementos tenham sido extraídos e colocados na lista ordenada.
@@ -32,3 +32,5 @@ Uma característica interessante do heap sort é que ele é um algoritmo in-plac
 Apesar de ter uma complexidade de tempo média e pior caso de O(n log n), o heap sort não é tão rápido quanto algoritmos como o quicksort em média. No entanto, ele possui uma vantagem importante: sua complexidade de tempo é sempre garantida, independentemente da distribuição inicial dos elementos. Isso faz com que o heap sort seja útil em situações em que a garantia de tempo de execução é mais importante do que o desempenho médio.
 >
 Espero que essas informações adicionais tenham sido úteis! Se tiver mais alguma pergunta, é só perguntar.
+
+### By: ChatGPT.
