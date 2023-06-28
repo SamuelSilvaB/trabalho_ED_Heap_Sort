@@ -31,6 +31,3 @@ Uma característica interessante do heap sort é que ele é um algoritmo in-plac
 >
 Apesar de ter uma complexidade de tempo média e pior caso de O(n log n), o heap sort não é tão rápido quanto algoritmos como o quicksort em média. No entanto, ele possui uma vantagem importante: sua complexidade de tempo é sempre garantida, independentemente da distribuição inicial dos elementos. Isso faz com que o heap sort seja útil em situações em que a garantia de tempo de execução é mais importante do que o desempenho médio.
 >
-Espero que essas informações adicionais tenham sido úteis! Se tiver mais alguma pergunta, é só perguntar.
-
-### By: ChatGPT.
