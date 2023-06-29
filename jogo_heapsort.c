@@ -68,11 +68,11 @@ int main() {
             scanf("%d", &index2);
             if (index1 >= 0 && index1 < ARRAY_SIZE && index2 >= 0 && index2 < ARRAY_SIZE) {
                 swap(&arr[index1], &arr[index2]);
-                viewCount++;
+                
 
                 if (viewCount >= MAX_VIEW_COUNT) {
                     printf("Você atingiu o número máximo de visualizações.\n");
-                    printf("Continue jogando sem ver o array.\n");
+                    printf("Continue jogando sem ver o array.\n\n");
                 } else {
                     int viewInput;
                     printf("Para visualizar o array após a alteração, digite -2. No entanto, este recurso só pode ser usado no máximo 3 vezes. ");
@@ -82,6 +82,7 @@ int main() {
                     if (viewInput == -2) {
                         printf("Estado atual do array: ");
                         printArray(arr, ARRAY_SIZE);
+                        viewCount++;
                         printf("\n");
                     }
                 }
